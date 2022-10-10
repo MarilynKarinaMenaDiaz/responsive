@@ -1,0 +1,172 @@
+body {
+  margin: 0 auto;
+}
+
+.cont-1 {
+  background-color: #aa1b27;
+}
+
+.cont-2 div {
+  background-color: #d12263;
+}
+
+.cont-3 div {
+  background-color: #aa1b27;
+}
+
+.sub {
+  background-color: #e8b1bd;
+}
+
+@media (min-width: 1024px) {
+
+  .cont-1 {
+    height: 350px;
+    max-width: 1024px;
+    margin: 28px auto;
+  }
+
+  .cont-2 {
+    display: flex;
+    gap: 1%;
+    height: 100px;
+    margin: 28px auto;
+    max-width: 1024px;
+  }
+
+  .cont-2 div {
+    height: 100%;
+    width: 50%;
+  }
+
+  .cont-3 {
+    display: flex;
+    gap: 1%;
+    height: 250px;
+    margin: 28px auto;
+    max-width: 1024px;
+  }
+
+  .cont-3 div {
+    height: 100%;
+    width: 33%;
+  }
+
+  .cont-4 {
+    display: flex;
+    gap: 0.5%;
+    height: 150px;
+    margin: 28px auto;
+    max-width: 1024px;
+  }
+
+  .sub {
+    height: 100%;
+    width: 50%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 960px) {
+  .cont-1 {
+    height: 250px;
+    margin: 20px auto;
+    margin-top: 0;
+  }
+
+  .cont-2 {
+    display: block;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  .cont-2 div {
+    height: 48%;
+    width: 100%;
+  }
+
+  .cont-2 div:first-child {
+    margin-bottom: 3px;
+  }
+
+  .cont-3 {
+    display: block;
+    height: 350px;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  .cont-3 div {
+    height: 32%;
+    width: 100%;
+  }
+
+  .cont-3 div:nth-child(2) {
+    margin: 2px 0;
+  }
+
+  .cont-4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1%;
+    height: 400px;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  .sub {
+    width: 50%;
+    height: 49%;
+  }
+}
+
+@media (max-width: 640px) {
+  .cont-1 {
+    height: 150px;
+    margin: 10px auto;
+    margin-top: 0;
+  }
+
+  .cont-2 {
+    display: block;
+    height: 150px;
+    margin: 10px auto;
+  }
+
+  .cont-2 div {
+    height: 48%;
+    width: 100%;
+  }
+
+  .cont-2 div:first-child {
+    margin-bottom: 2px;
+  }
+
+  .cont-3 {
+    display: block;
+    height: 900px;
+    margin: 10px auto;
+  }
+
+  .cont-3 div {
+    height: 32%;
+    width: 100%;
+  }
+
+  .cont-3 div:nth-child(2) {
+    margin: 2px 0;
+  }
+
+  .cont-4 {
+    display: block;
+    height: 600px;
+    margin: 10px auto;
+  }
+
+  .sub {
+    height: 24%;
+    margin: 2px 0;
+    width: 100%;
+  }
+}
